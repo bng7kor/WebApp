@@ -50,4 +50,4 @@ jobs:
         app-name: 'ravideploy'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_ff9ce19cfc7b4802a33c06bee39b8394 }}
-        package: '*.jar'
+        package: '*.war'
